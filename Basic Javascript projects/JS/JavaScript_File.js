@@ -11,4 +11,16 @@ function my_first_function() {
     var string="This is text!";
     document.write(string);
 }
+function displayDate() {
+    document.getElementById("demo").innerHTML=Date();
+}
 
+function big(x) {
+    x.style.height = "54px";
+    x.style.width = "84px";
+}
+
+function normal(x) {
+    x.style.height = "26px";
+    x.style.width = "90px";
+  }
