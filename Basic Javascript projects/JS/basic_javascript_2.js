@@ -13,6 +13,12 @@ function myfunction() {
     document.getElementById("con").innerHTML= sentence;
 }
 
+function magic() {
+    var ghost=document.getElementById("demo");
+    
+    ghost.style.color="red";
+ 
+}
 
 
 
