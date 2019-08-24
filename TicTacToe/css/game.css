@@ -28,7 +28,7 @@ body {
     text-align: center;
     color: darkblue;
     font-weight: bold;
-    font-family: ;                        /* If we want to change font */
+    font-family: tahoma;                        /* If we want to change font */
     font-size: 45px;
 }
 
@@ -174,7 +174,7 @@ table tr:nth-child(3) td:nth-child(1) {
     font-weight: bold;
     text-align: center;
     padding: 2px 0px 2px 0px;
-    margin: 0px 0px 0px opx;
+    margin: 0px 0px 0px 0px;
     background-color: #212270;
     border: 2px solid black;
     border-radius: 10px 10px 0px 0px;
@@ -202,7 +202,7 @@ table tr:nth-child(3) td:nth-child(1) {
     border-radius: 10px;
 }
 
-#borderState {
+#boardState {
     display: none;
     font-size: 10px;
     margin: 10px auto;

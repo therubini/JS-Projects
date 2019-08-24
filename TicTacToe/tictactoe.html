@@ -31,7 +31,6 @@
                     <label>Player 1: &nbsp&nbsp<span id="p1Display">O</span></label><br>
                     <label>Player 2: &nbsp&nbsp<span id="p2Display">X</span></label>
                 </div>
-            
                 <div class=""><button id="btnStart" onclick="startGame()">Start Game</button></div>
 
                 <div id="boardState"></div>
@@ -70,6 +69,8 @@
                              </div>
                         </div>
                     </td>
+                </tr>
+                <tr>
                     <td>
                         <div class="photo-container">
                             <div id="square3" class="square" onclick="square4Animate()">
@@ -94,6 +95,8 @@
                             </div>
                         </div>
                     </td>
+                </tr>
+                <tr>
                     <td>
                         <div class="photo-container">
                             <div id="square6" class="square" onclick="square7Animate()">
@@ -121,7 +124,7 @@
                 </tr>
             </table>
 
-         <div class="console_Right" style="float: right;">
+            <div class="console_Right" style="float: right;">
                 <div class="displayBox boxRight">
                     <strong>Configuration:</strong><br><br>
                     <label>Player 1: </label><select id="player1"><option value="x">X</option><option value="o">O</option></select>
@@ -134,7 +137,8 @@
                     <button id="btnStop" onclick="stopGame()">Stop Game</button>
                 </div>
              </div>
-         </div>
+        </div>
+        
 
         <script>
             var arrayO = document.getElementsByClassName("O");
