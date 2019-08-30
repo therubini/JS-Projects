@@ -1,3 +1,4 @@
+
 /* Affects entire document */
 html {
   scroll-behavior: smooth; /* This ensures that the page scrolling is smooth when the nav bar is clicked */
@@ -94,6 +95,7 @@ body.fade-out {
 }
 
 /* Video */
+
 #Typing_Video {
 	position: fixed; /* This fixes our video to the page  */
 	right: 0; /* This ensures no space between the edge of the video and the edge of the page */
