@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="css/css_3.css">
+
+        <title>html 3</title>
+    </head>
+
+    <body>
+        <script>document.body.className += " fade-out"; 
+        $(function(){
+            $('body').removeClass('fade-out');
+        });
+        </script>
+        <script src="javascript/javascript_3.js"></script>
+
+        <h1 style="font-size: 5vw;">Your face = Mood</h1>
+        <p style="font-size: 2vw;">What kind of mood are you in today? Just click on the face.</p>
+
+        <ul style="font-size: 2vw;">
+            <li onclick="mood(this)" id="sad1"
+            data-mood-type="sad. You should 'YouTube' kittens!">:(</li>
+            <br>
+            <li onclick="mood(this)" id="happy1"
+            data-mood-type="happy. Share the positive vibes!">:)</li>
+            <br>
+            <li onclick="mood(this)" id="frustrated1"
+            data-mood-type="frustrated. Walk outside and clear your mind!">:/</li>
+        </ul>
+
+        <div></div>
+
+
+
+
+    </body>
+</html>
