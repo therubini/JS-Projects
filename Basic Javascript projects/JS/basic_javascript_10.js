@@ -80,6 +80,7 @@ for (run = 0; run < 10; run++) {
  document.getElementById("breaker").innerHTML= text3;
 }
 
+//This is a conintue statement that jumps an iteration
 function continue1() {
     var text4="";
     var jum;
